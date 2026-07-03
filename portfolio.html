@@ -1,0 +1,410 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio dynamique | Yannis Baldor</title>
+    <meta
+      name="description"
+      content="Réalisations techniques de Yannis Baldor: réseau multi-bâtiments, migration cloud, audit Active Directory, support bancaire EBICS et administration systèmes."
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body class="portfolio-page">
+    <div class="noise" aria-hidden="true"></div>
+
+    <header class="site-header" data-elevate>
+      <a class="brand" href="index.html" aria-label="Retour accueil">
+        <span class="brand-mark">YB</span>
+        <span>Yannis Baldor</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav id="main-nav" class="main-nav" aria-label="Navigation principale">
+        <a href="index.html#expertise">Expertise</a>
+        <a href="index.html#experience">Expérience</a>
+        <a href="#preuves">Preuves</a>
+        <a href="#experiences">Expériences</a>
+        <a href="#cases">Cas projets</a>
+        <a href="Portfolio baldor yannis.pdf" target="_blank" rel="noreferrer">PDF original</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="portfolio-hero">
+        <div class="portfolio-hero-copy reveal">
+          <p class="eyebrow">Portfolio dynamique</p>
+          <h1>Réalisations techniques, livrables et expériences terrain.</h1>
+          <p>
+            Ce portfolio présente les réalisations, livrables, outils utilisés, points de contrôle
+            et expériences professionnelles de façon claire et directement consultable.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#preuves">Voir les preuves</a>
+            <a class="btn secondary" href="index.html">Retour accueil</a>
+          </div>
+        </div>
+
+        <div class="ops-board reveal" aria-label="Synthèse portfolio">
+          <div>
+            <span>01</span>
+            <strong>Réseau</strong>
+            <p>Segmentation, interconnexion, documentation.</p>
+          </div>
+          <div>
+            <span>02</span>
+            <strong>Cloud</strong>
+            <p>Disponibilité, sauvegardes, coûts, risques.</p>
+          </div>
+          <div>
+            <span>03</span>
+            <strong>AD Security</strong>
+            <p>Audit, Kerberos, remédiation, durcissement.</p>
+          </div>
+          <div>
+            <span>04</span>
+            <strong>Banque</strong>
+            <p>EBICS, XML, clés, droits, logs.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="preuves" class="section proof-section">
+        <div class="section-heading centered reveal">
+          <p class="eyebrow">Livrables et réalisations</p>
+          <h2>Un aperçu concret des livrables et travaux réalisés.</h2>
+          <p>
+            Cette sélection présente des livrables, analyses et actions issus du parcours: configuration,
+            documentation, audit, support, investigation et sécurisation.
+          </p>
+        </div>
+
+        <div class="proof-grid reveal">
+          <article>
+            <span>01</span>
+            <h3>Documentation réseau</h3>
+            <p>Schéma logique, bâtiments, zones, équipements, plan d'action et choix de configuration.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Dossier migration cloud</h3>
+            <p>Analyse de l'existant, étapes de migration, risques, bénéfices, coûts et suivi post-prod.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Rapport d'audit AD</h3>
+            <p>Énumération, Kerberos, bruteforce, Kerberoasting, secrets exposés et plan de remédiation.</p>
+          </article>
+          <article>
+            <span>04</span>
+            <h3>Support bancaire</h3>
+            <p>Analyse EBICS, contrôle XML, certificats, clés de chiffrement, droits applicatifs et logs.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="experiences" class="section professional-section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Expériences professionnelles</p>
+          <h2>Expériences terrain et responsabilités techniques.</h2>
+        </div>
+
+        <div class="professional-grid">
+          <article class="professional-card reveal">
+            <div class="project-topline">
+              <span>Depuis fév. 2026</span>
+              <span>Banque / Applicatif</span>
+            </div>
+            <h3>CEGID - Support Applicatif Bancaire N1/N2</h3>
+            <p>
+              Intervention sur des applications bancaires critiques pour des utilisateurs professionnels,
+              avec un vrai besoin de rigueur: flux financiers, fichiers structurés, certificats, clés,
+              droits et qualification d'incidents.
+            </p>
+            <div class="evidence-list">
+              <strong>Preuves concrètes</strong>
+              <ul>
+                <li>Analyse et contrôle de flux EBICS / CFONB160</li>
+                <li>Contrôle de fichiers XML et cohérence des échanges</li>
+                <li>Installation, renouvellement et vérification de certificats électroniques</li>
+                <li>Gestion de clés de chiffrement et de droits applicatifs</li>
+                <li>Lecture de logs, suivi ticketing et accompagnement utilisateur</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="professional-card reveal">
+            <div class="project-topline">
+              <span>Oct. 2023 - Sept. 2025</span>
+              <span>Infrastructure</span>
+            </div>
+            <h3>GMES Bugbusters - Admin Systèmes, Réseaux & Sécurité</h3>
+            <p>
+              Administration d'environnements clients TPE/PME: postes, serveurs, Microsoft 365, Active
+              Directory, pare-feu, VPN, supervision, sauvegardes, gestion du parc informatique, mises à
+              jour, correctifs et support N1/N2, avec interventions sur site et en datacenter.
+            </p>
+            <div class="evidence-list">
+              <strong>Preuves concrètes</strong>
+              <ul>
+                <li>Gestion comptes, groupes, droits, GPO et permissions SharePoint</li>
+                <li>Administration Microsoft 365, Entra ID et licences utilisateurs</li>
+                <li>Administration de pare-feu, règles de filtrage, VPN et accès sécurisés</li>
+                <li>Gestion du parc: inventaire, préparation postes, contrôle des versions et état de mise à jour</li>
+                <li>Déploiement de correctifs, mises à jour système et suivi de conformité des postes</li>
+                <li>Déploiement Wi-Fi, brassage réseau et dépannage connectivité</li>
+                <li>Supervision serveurs VMware / Proxmox et suivi des sauvegardes</li>
+                <li>Interventions utilisateurs, datacenter, documentation technique et support N1/N2</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="professional-card reveal">
+            <div class="project-topline">
+              <span>Déc. 2022 - Sept. 2023</span>
+              <span>Web / Sécurité</span>
+            </div>
+            <h3>La Suite Californie - Pentester / Développeur web</h3>
+            <p>
+              Développement d'outils web et d'applications métiers sécurisées, audits internes et amélioration
+              de performance sur un environnement opérationnel.
+            </p>
+            <div class="evidence-list">
+              <strong>Preuves concrètes</strong>
+              <ul>
+                <li>Amélioration de performance avec réduction de latence d'environ 30%</li>
+                <li>Participation à des audits internes et corrections de sécurité</li>
+                <li>Développement HTML/CSS, PHP, Python et intégration de besoins métiers</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="cases" class="section case-stack">
+        <article class="case-study reveal">
+          <div class="case-index">01</div>
+          <div class="case-body">
+            <p class="eyebrow">Réseau d'entreprise</p>
+            <h2>Configurer des services réseaux et équipements d'interconnexion</h2>
+            <p>
+              Objectif: préparer un nouveau local composé de trois bâtiments, en respectant un cahier des
+              charges réseau et en validant la configuration avant le déploiement physique.
+            </p>
+            <div class="case-grid">
+              <div>
+                <h3>Actions</h3>
+                <ul>
+                  <li>Cartographie réseau dans Cisco Packet Tracer</li>
+                  <li>Structuration des bâtiments, zones et équipements</li>
+                  <li>Documentation des choix de configuration</li>
+                </ul>
+              </div>
+              <div>
+                <h3>Valeur</h3>
+                <ul>
+                  <li>Vision claire avant intervention terrain</li>
+                  <li>Réduction des erreurs de configuration</li>
+                  <li>Base propre pour exploitation et maintenance</li>
+                </ul>
+              </div>
+            </div>
+            <div class="proof-strip">
+              <strong>Livrables visibles</strong>
+              <button type="button" class="proof-trigger" data-proof="network-topology">Schéma Packet Tracer</button>
+              <button type="button" class="proof-trigger" data-proof="network-addressing">Plan d'adressage</button>
+              <button type="button" class="proof-trigger" data-proof="network-doc">Documentation de configuration</button>
+              <button type="button" class="proof-trigger" data-proof="network-deploy">Plan d'action déploiement</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="case-study reveal">
+          <div class="case-index">02</div>
+          <div class="case-body">
+            <p class="eyebrow">Migration cloud</p>
+            <h2>Moderniser l'architecture Patronus</h2>
+            <p>
+              L'architecture initiale reposait sur trois serveurs physiques: web Apache, base MySQL et
+              fichiers CIFS. Le travail a consisté à penser une migration cloud plus disponible, plus
+              maintenable et mieux alignée avec les besoins métiers.
+            </p>
+            <div class="flow-map" aria-label="Étapes de migration">
+              <span>Analyse</span>
+              <span>Choix fournisseur</span>
+              <span>Environnement Azure</span>
+              <span>Pilote</span>
+              <span>Migration</span>
+              <span>Validation</span>
+              <span>Documentation</span>
+              <span>Suivi post-prod</span>
+            </div>
+            <div class="case-grid">
+              <div>
+                <h3>Bénéfices recherchés</h3>
+                <ul>
+                  <li>Haute disponibilité</li>
+                  <li>Scalabilité selon la charge</li>
+                  <li>Sauvegardes et mises à jour automatisées</li>
+                </ul>
+              </div>
+              <div>
+                <h3>Points de vigilance</h3>
+                <ul>
+                  <li>Perte de données pendant la migration</li>
+                  <li>Sécurité, conformité RGPD et maîtrise des coûts</li>
+                  <li>Accompagnement de l'équipe technique</li>
+                </ul>
+              </div>
+            </div>
+            <div class="proof-strip">
+              <strong>Livrables visibles</strong>
+              <button type="button" class="proof-trigger" data-proof="cloud-current">Architecture actuelle</button>
+              <button type="button" class="proof-trigger" data-proof="cloud-target">Architecture cible</button>
+              <button type="button" class="proof-trigger" data-proof="cloud-steps">Étapes de migration</button>
+              <button type="button" class="proof-trigger" data-proof="cloud-risks">Analyse risques / coûts</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="case-study featured-case reveal">
+          <div class="case-index">03</div>
+          <div class="case-body">
+            <p class="eyebrow">Audit Active Directory</p>
+            <h2>Évaluer et améliorer le niveau de sécurité d'un domaine Windows</h2>
+            <p>
+              Dans un contexte sensible, l'audit a porté sur l'exposition du domaine Windows et de son
+              Active Directory: services exposés, Kerberos, politiques d'authentification, comptes à risques
+              et possibilités de mouvement latéral.
+            </p>
+            <div class="risk-lanes">
+              <div>
+                <span>Découverte</span>
+                <strong>Hôtes, DC, Kerberos, LDAP, RDP</strong>
+              </div>
+              <div>
+                <span>Compromission</span>
+                <strong>Bruteforce, absence de verrouillage</strong>
+              </div>
+              <div>
+                <span>Élévation</span>
+                <strong>SPN, Kerberoasting, secrets en clair</strong>
+              </div>
+              <div>
+                <span>Remédiation</span>
+                <strong>LAPS, GPO, SIEM, VLAN, délégation contrainte</strong>
+              </div>
+            </div>
+            <div class="case-grid">
+              <div>
+                <h3>Recommandations prioritaires</h3>
+                <ul>
+                  <li>Politique de mot de passe robuste et rotation des secrets exposés</li>
+                  <li>Déploiement LAPS et restriction des accès sensibles</li>
+                  <li>Journalisation centralisée des connexions RDP, SMB et Kerberos</li>
+                </ul>
+              </div>
+              <div>
+                <h3>Vision long terme</h3>
+                <ul>
+                  <li>Segmentation VLAN par rôle</li>
+                  <li>ACL strictes entre zones</li>
+                  <li>Surveillance des flux inter-VLAN avec IDS/IPS</li>
+                </ul>
+              </div>
+            </div>
+            <div class="proof-strip">
+              <strong>Livrables visibles</strong>
+              <button type="button" class="proof-trigger" data-proof="ad-enumeration">Énumération réseau</button>
+              <button type="button" class="proof-trigger" data-proof="ad-kerberos">Constats Kerberos</button>
+              <button type="button" class="proof-trigger" data-proof="ad-lateral">Scénario d'élévation</button>
+              <button type="button" class="proof-trigger" data-proof="ad-remediation">Plan de remédiation</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="case-study reveal">
+          <div class="case-index">04</div>
+          <div class="case-body">
+            <p class="eyebrow">Support bancaire Cegid</p>
+            <h2>Maintenir des flux applicatifs critiques et accompagner les utilisateurs</h2>
+            <p>
+              En support N1/N2 bancaire, l'enjeu est double: résoudre vite les incidents utilisateurs et
+              comprendre précisément les flux techniques qui soutiennent les échanges financiers.
+            </p>
+            <div class="case-grid">
+              <div>
+                <h3>Périmètre technique</h3>
+                <ul>
+                  <li>Analyse de flux EBICS et CFONB160</li>
+                  <li>Contrôle de fichiers XML et cohérence des échanges</li>
+                  <li>Installation et renouvellement de certificats électroniques</li>
+                  <li>Gestion de clés de chiffrement et droits applicatifs</li>
+                </ul>
+              </div>
+              <div>
+                <h3>Approche support</h3>
+                <ul>
+                  <li>Lecture de logs et qualification d'incidents</li>
+                  <li>Suivi des tickets et communication claire avec les utilisateurs</li>
+                  <li>Priorisation des incidents sur contexte métier sensible</li>
+                </ul>
+              </div>
+            </div>
+            <div class="proof-strip">
+              <strong>Preuves terrain</strong>
+              <button type="button" class="proof-trigger" data-proof="bank-ebics">Analyse EBICS</button>
+              <button type="button" class="proof-trigger" data-proof="bank-xml">Contrôle XML</button>
+              <button type="button" class="proof-trigger" data-proof="bank-certificates">Certificats</button>
+              <button type="button" class="proof-trigger" data-proof="bank-keys">Clés de chiffrement</button>
+              <button type="button" class="proof-trigger" data-proof="bank-rights">Droits applicatifs</button>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="contact-section compact-contact">
+        <div class="contact-content reveal">
+          <p class="eyebrow">Synthèse</p>
+          <h2>Le fil rouge: rendre l'infrastructure plus fiable, plus lisible, plus sûre.</h2>
+          <p>
+            Que ce soit sur réseau, cloud, Active Directory ou applicatif bancaire, je garde la même logique:
+            comprendre l'existant, documenter, sécuriser, corriger et transmettre clairement.
+          </p>
+          <div class="contact-actions">
+            <a class="btn primary" href="mailto:baldor.yannis@gmail.com">Me contacter</a>
+            <a class="btn secondary" href="YannisCV.pdf" target="_blank" rel="noreferrer">CV PDF</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="proof-modal" id="proof-modal" aria-hidden="true">
+      <div class="proof-modal-backdrop" data-proof-close></div>
+      <section class="proof-dialog" role="dialog" aria-modal="true" aria-labelledby="proof-modal-title">
+        <button class="proof-close" type="button" data-proof-close aria-label="Fermer la preuve">×</button>
+        <div class="proof-dialog-copy">
+          <p class="eyebrow" id="proof-modal-kicker">Preuve visuelle</p>
+          <h2 id="proof-modal-title">Livrable</h2>
+          <p id="proof-modal-description"></p>
+        </div>
+        <div class="proof-viewer">
+          <button class="proof-nav proof-prev" type="button" data-proof-prev aria-label="Image précédente">‹</button>
+          <img id="proof-modal-image" src="" alt="">
+          <button class="proof-nav proof-next" type="button" data-proof-next aria-label="Image suivante">›</button>
+        </div>
+        <div class="proof-thumbs" id="proof-thumbs" aria-label="Images de preuve"></div>
+      </section>
+    </div>
+
+    <footer>
+      <span>Yannis Baldor</span>
+      <span>Portfolio dynamique</span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
